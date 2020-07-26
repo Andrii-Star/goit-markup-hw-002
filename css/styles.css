@@ -1,9 +1,30 @@
 body {
- 
 }
 
-.grey {color: #757575;}
-.white{color: #FFFFFF;}
-a{color: #212121;}
-.blue{color: #2196F3;}
-.order{background-color: #2196F3; }
+.grey {
+  color: #757575;
+}
+.white {
+  color: #ffffff;
+}
+a {
+  color: #212121;
+}
+.blue {
+  color: #2196f3;
+}
+.order {
+  background-color: #2196f3;
+}
+.font44 {
+  font-size: 44px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font36 {
+  font-size: 36px;
+}
+.font16 {
+  font-size: 16px;
+}
