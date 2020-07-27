@@ -31,3 +31,6 @@ a {
 .item_caption {
   text-transform: uppercase;
 }
+.link:hover {
+  color: #2196f3;
+}
