@@ -1,4 +1,5 @@
 body {
+  font-family: Roboto;
 }
 
 .grey {
@@ -8,6 +9,7 @@ body {
   color: #ffffff;
 }
 a {
+  text-decoration: none;
   color: #212121;
 }
 .blue {
@@ -15,6 +17,9 @@ a {
 }
 .order {
   background-color: #2196f3;
+}
+.font26 {
+  font-size: 26px;
 }
 .font44 {
   font-size: 44px;
@@ -28,9 +33,53 @@ a {
 .font16 {
   font-size: 16px;
 }
-.item_caption {
+
+.link:hover {
+  color: #2196f3;
+}
+.item {
+  width: 370px;
+  height: 294px;
+  background-image: url("../images/portfolio1.jpg");
+  font-family: Roboto;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Robotoblack.ttf);
+  src: url(../fonts/Robotoblack.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Robotomedium.ttf);
+  src: url(../fonts/Robotomedium.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Robotothin.ttf);
+  src: url(../fonts/Robotothin.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+.uppercase {
   text-transform: uppercase;
 }
-.link:hover {
+footer {
+  background-color: #2f303a;
+}
+.normal {
+  font-style: normal;
+}
+.white06 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.darkgrey {
+  color: #757575;
+}
+.activecolore {
   color: #2196f3;
 }
