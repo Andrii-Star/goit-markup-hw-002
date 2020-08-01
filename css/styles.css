@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto-medium;
 }
 
 .grey {
@@ -14,6 +14,9 @@ a {
 }
 .blue {
   color: #2196f3;
+}
+.black {
+  color: #000000;
 }
 .order {
   background-color: #2196f3;
@@ -33,36 +36,42 @@ a {
 .font16 {
   font-size: 16px;
 }
-
+.font18 {
+  font-size: 18px;
+}
 .link:hover {
   color: #2196f3;
 }
 .item {
   width: 370px;
-  height: 294px;
-  background-image: url("../images/portfolio1.jpg");
-  font-family: Roboto;
-  font-weight: 600;
+  font-family: Roboto-medium;
 }
 @font-face {
-  font-family: Roboto;
+  font-family: Roboto-black;
   src: url(../fonts/Robotoblack.ttf);
   src: url(../fonts/Robotoblack.ttf) format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: Roboto;
+  font-family: Roboto-medium;
   src: url(../fonts/Robotomedium.ttf);
   src: url(../fonts/Robotomedium.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: Roboto;
+  font-family: Roboto-thin;
   src: url(../fonts/Robotothin.ttf);
   src: url(../fonts/Robotothin.ttf) format("truetype");
   font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url(../fonts/Robotobold.ttf);
+  src: url(../fonts/Robotobold.ttf) format("truetype");
+  font-weight: 500;
   font-style: normal;
 }
 .uppercase {
@@ -82,4 +91,10 @@ footer {
 }
 .activecolore {
   color: #2196f3;
+}
+.bold {
+  font-weight: 700;
+}
+.dark {
+  color: #212121;
 }
